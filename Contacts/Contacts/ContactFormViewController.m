@@ -6,13 +6,13 @@
 //  Copyright © 2016 ThomazBarros. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ContactFormViewController.h"
 
-@interface ViewController ()
+@interface ContactFormViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ContactFormViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
