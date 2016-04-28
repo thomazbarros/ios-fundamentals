@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)getDataFromForm{
+    NSLog(@"The button has been clicked.");
+}
 @end
