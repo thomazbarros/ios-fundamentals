@@ -10,6 +10,13 @@
 
 @interface ContactFormViewController : UIViewController
 
+@property IBOutlet UITextField *name;
+@property IBOutlet UITextField *phone;
+@property IBOutlet UITextField *email;
+@property IBOutlet UITextField *address;
+@property IBOutlet UITextField *website;
+
+
 - (IBAction) getDataFromForm;
 
 @end

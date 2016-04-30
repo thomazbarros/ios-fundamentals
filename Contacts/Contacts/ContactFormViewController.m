@@ -25,6 +25,13 @@
 }
 
 - (IBAction)getDataFromForm{
-    NSLog(@"The button has been clicked.");
+    NSLog(@"Data retrieved from the form.");
+    NSLog(@"\nName: %@ \nPhone: %@ \nE-mail: %@ \nAddress: %@ \nWebsite: %@",
+          [self.name text],
+          [self.phone text],
+          [self.email text],
+          [self.address text],
+          [self.website text]);
+
 }
 @end

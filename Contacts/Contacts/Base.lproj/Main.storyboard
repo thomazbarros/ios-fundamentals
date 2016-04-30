@@ -83,6 +83,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="address" destination="mdP-Xm-AVd" id="zz2-gy-e5D"/>
+                        <outlet property="email" destination="voj-W7-Ebo" id="nyd-FB-LnH"/>
+                        <outlet property="name" destination="hAG-Fc-FiP" id="AvR-Kk-HaV"/>
+                        <outlet property="phone" destination="xIo-Sc-YI0" id="rTw-BL-xrd"/>
+                        <outlet property="website" destination="r4G-ZL-A9U" id="Que-bc-xOQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
