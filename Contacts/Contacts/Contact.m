@@ -10,4 +10,9 @@
 
 @implementation Contact
 
+- (NSString *) description{
+    return [NSString stringWithFormat:@"Name: %@, Telephone: %@, E-mail: %@, Address: %@, Website: %@",
+            self.name, self.phone, self.email, self.address, self.website];
+}
+
 @end

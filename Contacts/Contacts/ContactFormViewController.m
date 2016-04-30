@@ -26,12 +26,15 @@
 
 - (IBAction)getDataFromForm{
     NSLog(@"Data retrieved from the form.");
-    NSLog(@"\nName: %@ \nPhone: %@ \nE-mail: %@ \nAddress: %@ \nWebsite: %@",
-          [self.name text],
-          [self.phone text],
-          [self.email text],
-          [self.address text],
-          [self.website text]);
+
+    Contact *contact = [Contact new];
+    contact.name = self.name.text;
+    contact.phone = self.phone.text;
+    contact.email = self.email.text;
+    contact.address = self.address.text;
+    contact.website = self.website.text;
+    NSLog(@"Dados: %@", contact);
+    
 
 }
 @end
