@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction) someMethod {
+    MySwiftObject * myOb = [MySwiftObject new];
+    NSLog(@"MyOb.someProperty: %@", myOb.someProperty);
+    myOb.someProperty = @"Hello World";
+    NSLog(@"MyOb.someProperty: %@", myOb.someProperty);
+    NSString * retString = [myOb someFunction:@"Arg"];
+    NSLog(@"RetString: %@", retString);
+}
+
 @end

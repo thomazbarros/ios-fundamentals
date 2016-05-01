@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TestingIntegrationBetweenObjectiveCAndSwift-Swift.h>
 
 @interface ViewController : UIViewController
 
-
+- (IBAction) someMethod;
 @end
 

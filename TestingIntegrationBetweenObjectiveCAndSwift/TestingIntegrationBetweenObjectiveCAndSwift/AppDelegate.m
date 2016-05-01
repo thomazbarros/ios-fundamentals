@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <TestingIntegrationBetweenObjectiveCAndSwift-Swift.h>
+
 
 @interface AppDelegate ()
 
