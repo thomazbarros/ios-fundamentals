@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF28B1AB1CD49DF100D9DD99 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28B1AA1CD49DF100D9DD99 /* Contact.m */; };
+		FF28B1AE1CD4B02100D9DD99 /* ContactDao.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28B1AD1CD4B02100D9DD99 /* ContactDao.m */; };
 		FF86FCE71CB83E4600A662DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86FCE61CB83E4600A662DC /* main.m */; };
 		FF86FCEA1CB83E4600A662DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86FCE91CB83E4600A662DC /* AppDelegate.m */; };
 		FF86FCED1CB83E4600A662DC /* ContactFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86FCEC1CB83E4600A662DC /* ContactFormViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		FF28B1A91CD49DF100D9DD99 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		FF28B1AA1CD49DF100D9DD99 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		FF28B1AC1CD4B02100D9DD99 /* ContactDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDao.h; sourceTree = "<group>"; };
+		FF28B1AD1CD4B02100D9DD99 /* ContactDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDao.m; sourceTree = "<group>"; };
 		FF86FCE21CB83E4600A662DC /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF86FCE61CB83E4600A662DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF86FCE81CB83E4600A662DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				FF28B1A91CD49DF100D9DD99 /* Contact.h */,
 				FF28B1AA1CD49DF100D9DD99 /* Contact.m */,
 				FF86FCEC1CB83E4600A662DC /* ContactFormViewController.m */,
+				FF28B1AC1CD4B02100D9DD99 /* ContactDao.h */,
+				FF28B1AD1CD4B02100D9DD99 /* ContactDao.m */,
 				FF86FCEE1CB83E4600A662DC /* Main.storyboard */,
 				FF86FCF41CB83E4600A662DC /* Assets.xcassets */,
 				FF86FCF61CB83E4600A662DC /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 				FF86FCF31CB83E4600A662DC /* Contacts.xcdatamodeld in Sources */,
 				FF86FCED1CB83E4600A662DC /* ContactFormViewController.m in Sources */,
 				FF28B1AB1CD49DF100D9DD99 /* Contact.m in Sources */,
+				FF28B1AE1CD4B02100D9DD99 /* ContactDao.m in Sources */,
 				FF86FCEA1CB83E4600A662DC /* AppDelegate.m in Sources */,
 				FF86FCE71CB83E4600A662DC /* main.m in Sources */,
 			);
