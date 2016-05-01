@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FFABA6861CD5D8E600842341"
-               BuildableName = "IntegrationWithSwift.app"
-               BlueprintName = "IntegrationWithSwift"
-               ReferencedContainer = "container:IntegrationWithSwift.xcodeproj">
+               BlueprintIdentifier = "FF056B371CD5E8DF00BA6E59"
+               BuildableName = "TestingIntegrationBetweenSwiftAndObjectiveC.app"
+               BlueprintName = "TestingIntegrationBetweenSwiftAndObjectiveC"
+               ReferencedContainer = "container:TestingIntegrationBetweenSwiftAndObjectiveC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFABA6861CD5D8E600842341"
-            BuildableName = "IntegrationWithSwift.app"
-            BlueprintName = "IntegrationWithSwift"
-            ReferencedContainer = "container:IntegrationWithSwift.xcodeproj">
+            BlueprintIdentifier = "FF056B371CD5E8DF00BA6E59"
+            BuildableName = "TestingIntegrationBetweenSwiftAndObjectiveC.app"
+            BlueprintName = "TestingIntegrationBetweenSwiftAndObjectiveC"
+            ReferencedContainer = "container:TestingIntegrationBetweenSwiftAndObjectiveC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFABA6861CD5D8E600842341"
-            BuildableName = "IntegrationWithSwift.app"
-            BlueprintName = "IntegrationWithSwift"
-            ReferencedContainer = "container:IntegrationWithSwift.xcodeproj">
+            BlueprintIdentifier = "FF056B371CD5E8DF00BA6E59"
+            BuildableName = "TestingIntegrationBetweenSwiftAndObjectiveC.app"
+            BlueprintName = "TestingIntegrationBetweenSwiftAndObjectiveC"
+            ReferencedContainer = "container:TestingIntegrationBetweenSwiftAndObjectiveC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FFABA6861CD5D8E600842341"
-            BuildableName = "IntegrationWithSwift.app"
-            BlueprintName = "IntegrationWithSwift"
-            ReferencedContainer = "container:IntegrationWithSwift.xcodeproj">
+            BlueprintIdentifier = "FF056B371CD5E8DF00BA6E59"
+            BuildableName = "TestingIntegrationBetweenSwiftAndObjectiveC.app"
+            BlueprintName = "TestingIntegrationBetweenSwiftAndObjectiveC"
+            ReferencedContainer = "container:TestingIntegrationBetweenSwiftAndObjectiveC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
