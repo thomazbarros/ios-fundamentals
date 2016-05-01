@@ -21,9 +21,9 @@
                                 <rect key="frame" x="37" y="125" width="106" height="30"/>
                                 <state key="normal" title="Blue on Orange"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0M-Vv-Vux">
-                                <rect key="frame" x="182" y="54" width="50" height="30"/>
-                                <state key="normal" title="Default"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5om-96-lHm">
+                                <rect key="frame" x="156" y="217" width="103" height="30"/>
+                                <state key="normal" title="Black on White"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWr-7d-k8a">
                                 <rect key="frame" x="37" y="318" width="96" height="30"/>
@@ -33,18 +33,25 @@
                                 <rect key="frame" x="269" y="313" width="99" height="30"/>
                                 <state key="normal" title="Yellow on Blue"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydn-94-wGL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0M-Vv-Vux">
+                                <rect key="frame" x="182" y="53" width="50" height="30"/>
+                                <state key="normal" title="Default"/>
+                                <connections>
+                                    <action selector="defaultColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Me0-9m-krb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3g-OH-ZQQ">
                                 <rect key="frame" x="281" y="125" width="87" height="30"/>
                                 <state key="normal" title="Red on Cyan"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5om-96-lHm">
-                                <rect key="frame" x="156" y="217" width="103" height="30"/>
-                                <state key="normal" title="Black on White"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="default" destination="e0M-Vv-Vux" id="WNa-6Y-PcK"/>
+                        <outlet property="defaultbutton" destination="e0M-Vv-Vux" id="EfO-bu-QiU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
