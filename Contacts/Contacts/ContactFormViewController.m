@@ -24,6 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (id) initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder: aDecoder];
+    if (self)
+        self.dao = [ContactDao contactDaoInstance];
+    return self;
+}
+
 - (IBAction)getDataFromForm{
     NSLog(@"Data retrieved from the form.");
 
@@ -49,6 +56,7 @@
     [contact setEmail:[[self email]text]];
     [contact setAddress:[[self address]text]];
     [contact setWebsite:[[self website]text]];
-    NSLog(@"Dados: %@", contact);
+    
+    [self.dao addContact:contact];
 }
 @end

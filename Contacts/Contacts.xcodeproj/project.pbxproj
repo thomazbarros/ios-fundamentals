@@ -68,9 +68,9 @@
 			children = (
 				FF86FCE81CB83E4600A662DC /* AppDelegate.h */,
 				FF86FCE91CB83E4600A662DC /* AppDelegate.m */,
-				FF86FCEB1CB83E4600A662DC /* ContactFormViewController.h */,
 				FF28B1A91CD49DF100D9DD99 /* Contact.h */,
 				FF28B1AA1CD49DF100D9DD99 /* Contact.m */,
+				FF86FCEB1CB83E4600A662DC /* ContactFormViewController.h */,
 				FF86FCEC1CB83E4600A662DC /* ContactFormViewController.m */,
 				FF28B1AC1CD4B02100D9DD99 /* ContactDao.h */,
 				FF28B1AD1CD4B02100D9DD99 /* ContactDao.m */,
