@@ -14,9 +14,16 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIScreen *screen = [UIScreen mainScreen];
+    CGRect screenDimensions = [screen bounds];
+    self.window = [[UIWindow alloc]initWithFrame:screenDimensions];
+    
+    ContactsListViewController *list = [ContactsListViewController new];
+    self.window.rootViewController = list;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
