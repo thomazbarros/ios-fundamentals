@@ -21,7 +21,10 @@
     self.window = [[UIWindow alloc]initWithFrame:screenDimensions];
     
     ContactsListViewController *list = [ContactsListViewController new];
-    self.window.rootViewController = list;
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:list];
+    
+    self.window.rootViewController = navigationController;
     
     [self.window makeKeyAndVisible];
     return YES;
