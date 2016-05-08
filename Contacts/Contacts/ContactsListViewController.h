@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ContactFormViewController.h"
 
 @interface ContactsListViewController : UITableViewController
 

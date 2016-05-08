@@ -26,8 +26,10 @@
 
 - (id) initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder: aDecoder];
-    if (self)
+    if (self){
         self.dao = [ContactDao contactDaoInstance];
+        self.navigationItem.title = @"Add Contact";
+    }
     return self;
 }
 

@@ -21,7 +21,10 @@
 }
 
 - (void)showForm{
-    NSLog(@"This is a test. The form is going to be executed by this method.");
+    //The form is going to be executed by this method."
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ContactFormViewController *form = [storyBoard instantiateViewControllerWithIdentifier:@"ContactDetailsForm"];
+    [self.navigationController pushViewController:form animated:YES];
 }
 
 @end
