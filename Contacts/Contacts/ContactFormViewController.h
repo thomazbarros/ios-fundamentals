@@ -22,6 +22,7 @@
 
 //Other properties
 @property (strong) ContactDao *dao;
+@property (strong) Contact *contact;
 
 //Methods
 - (IBAction) getDataFromForm;

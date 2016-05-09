@@ -24,16 +24,26 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (id) initWithCoder:(NSCoder *)aDecoder{
+- (id)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder: aDecoder];
     if (self){
         self.dao = [ContactDao contactDaoInstance];
         self.navigationItem.title = @"Add Contact";
+        
+        UIBarButtonItem *add = [[UIBarButtonItem alloc] initWithTitle:@"New Contact" style:UIBarButtonItemStylePlain target:self action:@selector(newContact)];
+        self.navigationItem.rightBarButtonItem = add;
     }
     return self;
 }
 
-- (IBAction)getDataFromForm{
+- (void)newContact{
+    [self getDataFromForm];
+    [self.dao addContact:self.contact];
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)getDataFromForm{
     NSLog(@"Data retrieved from the form.");
 
 //    Contact *contact = [Contact new];
@@ -52,13 +62,16 @@
 //    contact.website = _website.text;
 //    NSLog(@"Dados: %@", contact);
 
-    Contact *contact = [[Contact alloc]init];
-    [contact setName:[[self name]text]];
-    [contact setPhone:[[self phone]text]];
-    [contact setEmail:[[self email]text]];
-    [contact setAddress:[[self address]text]];
-    [contact setWebsite:[[self website]text]];
+    self.contact = [Contact new];
     
-    [self.dao addContact:contact];
+    [self.contact setName:[[self name]text]];
+    [self.contact setPhone:[[self phone]text]];
+    [self.contact setEmail:[[self email]text]];
+    [self.contact setAddress:[[self address]text]];
+    [self.contact setWebsite:[[self website]text]];
+    
+
 }
+
+
 @end
