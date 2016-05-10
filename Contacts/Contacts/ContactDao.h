@@ -15,5 +15,6 @@
 
 - (void) addContact: (Contact *) contact;
 + (id) contactDaoInstance;
+- (Contact *) getContactAtIndex: (NSInteger) index;
 
 @end

@@ -16,6 +16,8 @@
         self.navigationItem.title = @"Contacts";
         UIBarButtonItem *showFormButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(showForm)];
         self.navigationItem.rightBarButtonItem = showFormButton;
+        
+        self.dao = [ContactDao contactDaoInstance];
     }
     return self;
 }
@@ -25,6 +27,29 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ContactFormViewController *form = [storyBoard instantiateViewControllerWithIdentifier:@"ContactDetailsForm"];
     [self.navigationController pushViewController:form animated:YES];
+}
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [self.dao.contacts count];
+}
+
+//I'm aware that the default implementation returns 1.
+//It's here because I want to.
+- (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+- (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *cellIdentifier = @"cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell)
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier: cellIdentifier];
+    
+    Contact *contact = [self.dao getContactAtIndex:indexPath.row];
+    cell.textLabel.text = contact.name;
+    
+    return cell;
 }
 
 @end
