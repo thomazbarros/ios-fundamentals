@@ -13,6 +13,7 @@
 		FF3526C61D8F085400AF5BFD /* Dog_Age_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF3526C41D8F085400AF5BFD /* Dog_Age_Calculator.xcdatamodeld */; };
 		FF3526C81D8F085400AF5BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3526C71D8F085400AF5BFD /* Assets.xcassets */; };
 		FF3526CB1D8F085400AF5BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3526C91D8F085400AF5BFD /* LaunchScreen.storyboard */; };
+		FFBB5A811D957F4C00B6E1C3 /* corgi.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBB5A801D957F4C00B6E1C3 /* corgi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF3526C71D8F085400AF5BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3526CA1D8F085400AF5BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF3526CC1D8F085400AF5BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBB5A801D957F4C00B6E1C3 /* corgi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corgi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FF3526BC1D8F085400AF5BFD /* Dog Age Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				FFBB5A801D957F4C00B6E1C3 /* corgi.png */,
 				FF3526BD1D8F085400AF5BFD /* AppDelegate.swift */,
 				FF3526BF1D8F085400AF5BFD /* ViewController.swift */,
 				FF3526C11D8F085400AF5BFD /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBB5A811D957F4C00B6E1C3 /* corgi.png in Resources */,
 				FF3526CB1D8F085400AF5BFD /* LaunchScreen.storyboard in Resources */,
 				FF3526C81D8F085400AF5BFD /* Assets.xcassets in Resources */,
 				FF3526C31D8F085400AF5BFD /* Main.storyboard in Resources */,
@@ -301,6 +305,7 @@
 				FF3526D11D8F085500AF5BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
