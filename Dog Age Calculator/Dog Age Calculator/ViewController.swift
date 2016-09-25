@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ageTextField: UITextField!
+    
+    @IBAction func discoverAgeButton(_ sender: AnyObject) {
+        print("Button clicked.")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
