@@ -11,10 +11,15 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var ageTextField: UITextField!
-    
+    @IBOutlet weak var resultLabel: UILabel!
     @IBAction func discoverAgeButton(_ sender: AnyObject) {
         print("Button clicked.")
+        var age = Int(ageTextField.text!)!
+        age *= 7
+        resultLabel.text = String(age)
+        
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +32,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

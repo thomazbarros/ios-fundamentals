@@ -37,8 +37,15 @@
                                     <action selector="discoverAgeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u70-dJ-yf4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vS-u1-A0P">
+                                <frame key="frameInset" minX="16" minY="394" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If your dog was a human, how old would he be?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udx-vy-l2O">
-                                <frame key="frameInset" minX="7" minY="229" width="361" height="63"/>
+                                <frame key="frameInset" minX="78" minY="230" width="219" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.67160437921648186" green="1" blue="0.97570940170765563" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
@@ -50,6 +57,7 @@
                     </view>
                     <connections>
                         <outlet property="ageTextField" destination="OrO-Xt-3Rh" id="aDc-Gc-2Hz"/>
+                        <outlet property="resultLabel" destination="1vS-u1-A0P" id="Q5F-vr-S3N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
