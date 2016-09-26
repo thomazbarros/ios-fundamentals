@@ -14,18 +14,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBAction func discoverAgeButton(_ sender: AnyObject) {
         print("Button clicked.")
-        var age = Int(ageTextField.text!)!
-        age *= 7
-        resultLabel.text = String(age)
+        let age = Int(ageTextField.text!)!
+        resultLabel.text = "Your dog age is "+String(age*7)+" years old."
         
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         print("The app has been loaded.")
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
